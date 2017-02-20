@@ -1,11 +1,23 @@
 {
-  "name": "my-app",
-  "description": "My application",
-  "version": "0.0.1",
-  "dependencies": {
-    "express": "3.4.0"
+  "name": "beepsy",
+  "description": "Our sample Node to Heroku app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
   },
-  "engines": {
-    "node": ">=0.10.0"
-  }
+  "dependencies": {
+    "ejs": "~1.0.0",
+    "express": "~4.9.8"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akayvanfar/beepsy.git"
+  },
+  "author": "Andrew Kayvanfar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akayvanfar/beepsy/issues"
+  },
+  "homepage": "https://github.com/akayvanfar/beepsy#readme"
 }
